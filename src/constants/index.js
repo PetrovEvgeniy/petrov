@@ -12,13 +12,16 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    bootstrap,
+    firebase,
     threejs,
     git,
     figma,
     pmg,
     thu,
     softuni,
-    carrent, 
+    carrent,
+    
     
    //TODO: Import projects...
   } from "../assets";
@@ -51,21 +54,13 @@ import {
       title: "Mobile App Developer",
       icon: mobile,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
     {
       name: "JavaScript",
       icon: javascript,
@@ -75,35 +70,52 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
+      name: "ReactJS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
+      name: "NodeJS",
+      icon: nodejs,
+    },
+     {
+      name: "Redux",
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    
+    {
+      name: "TailwindCSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Firebase",
+      icon: firebase,
     },
     {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
+      name: "ThreeJS",
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
 
@@ -119,11 +131,11 @@ import {
       points: [
         "Acquiring theoretical and practical knowladge of mathematical principles and core subjects of Computer Science.",
         "Collaborating with cross-functional teams in Agile Scrum environment to create multiple high quality software projects.",
-        "Specialized in Web Engineering, Internet of Things and Mobile Developlent for both Android and iOS Applications.",
+        "Specializing in Web Engineering, Internet of Things and Mobile Developlent for both Android and iOS Applications.",
       ],
     },
     {
-      title: "Diploma for professional qualification: JavaScript Web Developer",
+      title: "Professional qualification: JavaScript Web Developer",
       institution: "Software University (SoftUni)",
       icon: softuni,
       iconBg: "#E6DEDD",
@@ -131,9 +143,8 @@ import {
       points: [
         "Acquiring deep knowledge and practical skills in both client (Front-end) programming and server (Back-end) JavaScript technologies.",
         "Solid skills in functional programming, working with arrays and objects, classes, DOM, object composition, prototype programming (inheritance), asynchronous programming, component testing, building SPA (Single-Page Application) and other basic JS concepts",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
-        "Specialize in full-stack JavaScript development of modern web applications using technologies such as HTML, CSS, Node.js, Express.js, MongoDB, React.js, Bootstrap and others",
+        "Specializing in full-stack JavaScript development of modern web applications using technologies such as HTML, CSS, Node.js, Express.js, MongoDB, React.js, Bootstrap and others",
       ],
     },
     {
@@ -143,10 +154,10 @@ import {
       iconBg: "#383E56",
       date: "Sep 2015 - June 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Establishing algorithmic thinking and problem-solving skills.",
+        "Imporoving English language skills and acquirering a C1 level certificate.",
+        "Displaying outstanding performance in various Computer Science subjects.",
+        "Created two professional websites for established businesses.",
       ],
     },
   ];

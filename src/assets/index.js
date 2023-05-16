@@ -16,9 +16,12 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import firebase from "./tech/firebase.png";
+import bootstrap from "./tech/bootstrap.png";
+
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 
 import pmg from './education/pmg.png'
 import softuni from './education/softuni.png'
@@ -40,6 +43,8 @@ export {
   close,
   css,
   figma,
+  bootstrap,
+  firebase,
   git,
   html,
   javascript,
@@ -53,6 +58,5 @@ export {
   pmg,
   softuni,
   thu,
-
   carrent,
 };
