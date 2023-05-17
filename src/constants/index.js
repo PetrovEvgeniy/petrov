@@ -20,9 +20,15 @@ import {
     pmg,
     thu,
     softuni,
-    carrent,
-    
-    
+    tshirtbuilder,
+    skydata,
+    housenet,
+    burgerbuilder,
+    nationallottery,
+    vanesatrans,
+
+    iconsend
+
    //TODO: Import projects...
   } from "../assets";
   
@@ -54,10 +60,6 @@ import {
       title: "Mobile App Developer",
       icon: mobile,
     },
-    // {
-    //   title: "Content Creator",
-    //   icon: creator,
-    // },
   ];
   
   const technologies = [
@@ -191,68 +193,154 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "T-Shirt Builder",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "T-Shirt-Builder is a full-stack web application that allows the users to create their own 3D model of a T-shirt. The user can customize the color of the T-shirt and also upload their own file to apply as a T-shirt logo or overall texture. Additionally, the app has an option to generate a custom logo or texture using the DALL-E AI picker tool.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "white-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "openai",
+          color: "green-text-gradient",
+        },
+      ],
+      image: tshirtbuilder,
+      deployment_link: "https://d-t-shirt-builder.web.app/",
+      source_code_link: "https://github.com/PetrovEvgeniy/T-Shirt-Builder",
+    },
+    {
+      name: "Skydata",
+      description:
+        "Skydata is a full-stack web application, that provides users the opportunity to share and learn interesting facts about different types of aircraft.  It is my final project of the React.js course, held in the Software University (SoftUni) . It was rated with the highest possible grade. 6/6",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react-bootstrap",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "rest-api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "orange-text-gradient",
         },
         {
           name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
+          name: "jwt-auth",
           color: "blue-text-gradient",
         },
+      ],
+      image: skydata,
+      deployment_link: "https://skydata-app.web.app/",
+      source_code_link: "https://github.com/PetrovEvgeniy/Skydata",
+    },
+    {
+      name: "HouseNet",
+      description:
+        "HouseNet is an Android application, which gives the opportunity to the user to see available listed real estate properties in the United Arab Emirates. Additionally, filter them out (search) by their property type and city, in which they are located. It is my personal university project and it was rated with 11/12 points by Prof. Philip Graf.",
+      tags: [
         {
-          name: "restapi",
+          name: "android",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
+          name: "bayut-api",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "java",
+          color: "orange-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: housenet,
+      deployment_link: "",
+      source_code_link: "https://github.com/PetrovEvgeniy/HouseNet",
     },
+    // {
+    //   name: "Burger Builder",
+    //   description:
+    //     "The Burger Builder app is a web platform that allows individuals to create their perfect burger. With a wide range of supported ingredients, users can build their burger to their exact preferences, with a convenient preview feature. Ordering is made easy through a contact data form, streamlining the process.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "redux",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "firebase",
+    //       color: "orange-text-gradient",
+    //     },
+    //   ],
+    //   image: burgerbuilder,
+    //   deployment_link: "https://react-burger-king-5c64d.web.app/",
+    //   source_code_link: "https://github.com/PetrovEvgeniy/BurgerBuilder",
+    // },
+    // {
+    //   name: "National Lottery",
+    //   description:
+    //     "The National Lottery project is an offline number-guessing game that offers players the opportunity to win prizes. The game consists of 10 spheres, each generating a random number between 1 and 50. Players make guesses, and if they correctly guess the number, the total prize increases.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "offline-game",
+    //       color: "orange-text-gradient",
+    //     },
+    //   ],
+    //   image: nationallottery,
+    //   deployment_link: "https://national-lottery-game.web.app/",
+    //   source_code_link: "https://github.com/PetrovEvgeniy/NationalLottery",
+    // },
+    // {
+    //   name: "Vanesa Trans",
+    //   description:
+    //     "In 2020, I developed Vanesa Trans - a website for a popular towing service business in Sofia. The web app effectively showcases all the services provided by the company including pricing, gallery and interactive contact page. It is currently only available in Bulgarian language.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "react-md",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "professional",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   image: vanesatrans,
+    //   deployment_link: "https://vanesa-trans.web.app/",
+    //   source_code_link: "",
+    // },
   ];
   
+
   export { services, technologies, education, testimonials, projects };

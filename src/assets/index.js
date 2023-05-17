@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import frontend from "./frontend.png";
 import github from "./github.png";
+import visit from "./visit.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -23,14 +24,20 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.png";
 
-import pmg from './education/pmg.png'
-import softuni from './education/softuni.png'
-import thu from './education/thu.png'
+import pmg from './education/pmg.png';
+import softuni from './education/softuni.png';
+import thu from './education/thu.png';
 
-import carrent from './carrent.png'
+import tshirtbuilder from './tshirt-builder.png';
+import skydata from './skydata.png';
+import housenet from './housenet.png';
+import burgerbuilder from './burgerbuilder.png';
+import nationallottery from './nationallottery.png';
+import vanesatrans from './vanesa-trans.png';
+
+import iconsend from './icon-send.png';
 
 
-//TODO: Import projects...
 
 export {
   logo,
@@ -39,6 +46,7 @@ export {
   mobile,
   frontend,
   github,
+  visit,
   menu,
   close,
   css,
@@ -58,5 +66,11 @@ export {
   pmg,
   softuni,
   thu,
-  carrent,
+  tshirtbuilder,
+  skydata,
+  housenet,
+  burgerbuilder,
+  nationallottery,
+  vanesatrans,
+  iconsend,
 };
