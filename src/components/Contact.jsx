@@ -10,10 +10,6 @@
  import { slideIn } from '../utils/motion';
 
 
-//template_8nhf6po
-//service_ndiknvo
-//user_e673EHxvHaBkEGQuBXmsc
-
 const Contact = () => {
   const formRef = useRef();
   
@@ -33,8 +29,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
+   
 
+    //Validate form
+    if(!form.name || !form.email || !form.message) {
+      
+    }
+    else{
+      // Submit form
+      setLoading(true);
     emailjs.send(
       'service_ndiknvo',
       'template_8nhf6po',
@@ -61,6 +64,8 @@ const Contact = () => {
         console.log(error.text);
         alert("Something went wrong.")
        });
+    }
+
 
   }
 
@@ -86,6 +91,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
+              required
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
@@ -100,8 +106,9 @@ const Contact = () => {
               Your Email
             </span>
             <input
-              type="text"
+              type="email"
               name="email"
+              required
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email address?"
@@ -118,6 +125,7 @@ const Contact = () => {
             <textarea
               rows="7"
               name="message"
+              required
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
