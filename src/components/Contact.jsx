@@ -98,7 +98,7 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 
               placeholder:text-secondary 
               rounded-lg text-white font-medium focus:outline-none
-              border-none font-medium"
+              border-none"
             />
           </label>
           <label className="flex flex-col">
@@ -115,7 +115,7 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 
               placeholder:text-secondary 
               rounded-lg text-white font-medium focus:outline-none
-              border-none font-medium"
+              border-none"
             />
           </label>
           <label className="flex flex-col">
@@ -132,7 +132,7 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 
               placeholder:text-secondary 
               rounded-lg text-white font-medium focus:outline-none
-              border-none font-medium"
+              border-none resize-none"
             />
           </label>
 

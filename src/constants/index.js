@@ -273,74 +273,77 @@ import {
       image: housenet,
       deployment_link: "",
       source_code_link: "https://github.com/PetrovEvgeniy/HouseNet",
-    },
-    // {
-    //   name: "Burger Builder",
-    //   description:
-    //     "The Burger Builder app is a web platform that allows individuals to create their perfect burger. With a wide range of supported ingredients, users can build their burger to their exact preferences, with a convenient preview feature. Ordering is made easy through a contact data form, streamlining the process.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "redux",
-    //       color: "pink-text-gradient",
-    //     },
-    //     {
-    //       name: "firebase",
-    //       color: "orange-text-gradient",
-    //     },
-    //   ],
-    //   image: burgerbuilder,
-    //   deployment_link: "https://react-burger-king-5c64d.web.app/",
-    //   source_code_link: "https://github.com/PetrovEvgeniy/BurgerBuilder",
-    // },
-    // {
-    //   name: "National Lottery",
-    //   description:
-    //     "The National Lottery project is an offline number-guessing game that offers players the opportunity to win prizes. The game consists of 10 spheres, each generating a random number between 1 and 50. Players make guesses, and if they correctly guess the number, the total prize increases.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //     {
-    //       name: "offline-game",
-    //       color: "orange-text-gradient",
-    //     },
-    //   ],
-    //   image: nationallottery,
-    //   deployment_link: "https://national-lottery-game.web.app/",
-    //   source_code_link: "https://github.com/PetrovEvgeniy/NationalLottery",
-    // },
-    // {
-    //   name: "Vanesa Trans",
-    //   description:
-    //     "In 2020, I developed Vanesa Trans - a website for a popular towing service business in Sofia. The web app effectively showcases all the services provided by the company including pricing, gallery and interactive contact page. It is currently only available in Bulgarian language.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "react-md",
-    //       color: "pink-text-gradient",
-    //     },
-    //     {
-    //       name: "professional",
-    //       color: "green-text-gradient",
-    //     },
-    //   ],
-    //   image: vanesatrans,
-    //   deployment_link: "https://vanesa-trans.web.app/",
-    //   source_code_link: "",
-    // },
+    }
   ];
   
+  const moreProjects = [
+    {
+      name: "Burger Builder",
+      description:
+        "The Burger Builder app is a web platform that allows individuals to create their perfect burger. With a wide range of supported ingredients, users can build their burger to their exact preferences, with a convenient preview feature. Ordering is made easy through a contact data form, streamlining the process.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: burgerbuilder,
+      deployment_link: "https://react-burger-king-5c64d.web.app/",
+      source_code_link: "https://github.com/PetrovEvgeniy/BurgerBuilder",
+    },
+    {
+      name: "National Lottery",
+      description:
+        "The National Lottery project is an offline number-guessing game that offers players the opportunity to win prizes. The game consists of 10 spheres, each generating a random number between 1 and 50. Players make guesses, and if they correctly guess the number, the total prize increases.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "offline-game",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: nationallottery,
+      deployment_link: "https://national-lottery-game.web.app/",
+      source_code_link: "https://github.com/PetrovEvgeniy/NationalLottery",
+    },
+    {
+      name: "Vanesa Trans",
+      description:
+        "In 2020, I developed Vanesa Trans - a website for a popular towing service business in Sofia. The web app effectively showcases all the services provided by the company including pricing, gallery and interactive contact page. It is currently only available in Bulgarian language.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react-md",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "professional",
+          color: "green-text-gradient",
+        },
+      ],
+      image: vanesatrans,
+      deployment_link: "https://vanesa-trans.web.app/",
+      source_code_link: "",
+    },
+  ];
 
-  export { services, technologies, education, testimonials, projects };
+
+  export { services, technologies, education, testimonials, projects, moreProjects };
