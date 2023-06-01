@@ -197,10 +197,11 @@ const Works = () => {
           
         <button 
         type="button"
-        className=" mt-10 py-3 px-8 outline w-fit text-white shadow-md shadow-primary rounded-lg  hover:shadow-xl hover:shadow-primary hover:scale-105 transform transition-all duration-300 ease-in-out "
+        
+        className={`${showExtraWorks ? "hidden" : "flex"} z-30 mt-10 py-4 px-8 outline w-fit text-white rounded-lg  hover:scale-105 transform transition-all duration-200 ease-in-out `}
         onClick={() => setShowExtraWorks(!showExtraWorks)}
         >
-        {!showExtraWorks ? "Show more..." : "Show less"}
+        {!showExtraWorks ? "Show more..." : ""}
       </button>
       </div>
 
