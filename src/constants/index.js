@@ -27,9 +27,6 @@ import {
     nationallottery,
     vanesatrans,
 
-    iconsend
-
-   //TODO: Import projects...
   } from "../assets";
   
   export const navLinks = [
@@ -61,7 +58,6 @@ import {
       icon: mobile,
     },
   ];
-  
   const technologies = [
     {
       name: "JavaScript",
@@ -167,27 +163,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Evgeniy proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Working with Evgeniy was a collaborative and enjoyable experience; he patiently listened to our ideas and incorporated them seamlessly into the website design.",
+      name: "Rosen Kolev",
+      designation: "CEO",
+      company: "TD Uteha",
+      image: "https://i.ibb.co/LSFHQXW/122612411-270617774290671-1781624060619717031-n.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Evgeniy does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I had the joy of working with Evgeniy during multiple projects during our time together at the THU. His problem-solving and collaborative skills were exceptional during our team projects.",
+      name: "Mirko Mannigel",
+      designation: "CTS Grad Student",
+      company: "THU",
+      image: "https://i.ibb.co/fkfL8pK/discordred-734882427.png",
     },
     {
       testimonial:
-        "After Evgeniy optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "We were impressed by Evgeniy's ability to balance creativity with practicality, resulting in a website that not only looks fantastic but also performs flawlessly across different devices.",
+      name: "Vasil Katsarski",
+      designation: "CEO",
+      company: "Vanesa Trans",
+      image: "https://i.ibb.co/kMBKs4z/vasil.png",
     },
   ];
   
