@@ -127,9 +127,10 @@ import {
       iconBg: "#383E56",
       date: "Oct 2020 - Oct 2024",
       points: [
-        "Acquiring theoretical and practical knowladge of mathematical principles and core subjects of Computer Science.",
-        "Collaborating with cross-functional teams in Agile Scrum environment to create multiple high quality software projects.",
-        "Specializing in Web Engineering, Internet of Things and Mobile Developlent for both Android and iOS Applications.",
+        "Acquired theoretical and practical knowledge of mathematical principles and core subjects of Computer Science.",
+        "Collaborated with cross-functional teams in Agile Scrum environment to create multiple high quality software projects.",
+        "Specialized in Web Engineering, Internet of Things and Mobile Development for both Android and iOS Applications.",
+        "Second specialization in Business Administration, Cross-Cultural Management and International Trade and Globalization.",
       ],
     },
     {
@@ -139,10 +140,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Oct 2017 - July 2020",
       points: [
-        "Acquiring deep knowledge and practical skills in both client (Front-end) programming and server (Back-end) JavaScript technologies.",
-        "Solid skills in functional programming, working with arrays and objects, classes, DOM, object composition, prototype programming (inheritance), asynchronous programming, component testing, building SPA (Single-Page Application) and other basic JS concepts",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-        "Specializing in full-stack JavaScript development of modern web applications using technologies such as HTML, CSS, Node.js, Express.js, MongoDB, React.js, Bootstrap and others",
+        "Obtained deep knowledge and practical skills in both client (Front-end) programming and server (Back-end) JavaScript technologies.",
+        "Solid skills in functional programming, working with arrays and objects, classes, DOM, object composition, prototype programming (inheritance), asynchronous programming, component testing, building SPA (Single-Page Application) and other basic JS concepts.",
+        "Engaged in code reviews and providing constructive feedback to other developers.",
+        "Focalized in full-stack JavaScript development of modern web applications using technologies such as HTML, CSS, Node.js, Express.js, MongoDB, React.js, Bootstrap and others.",
       ],
     },
     {
@@ -152,10 +153,10 @@ import {
       iconBg: "#383E56",
       date: "Sep 2015 - June 2020",
       points: [
-        "Establishing algorithmic thinking and problem-solving skills.",
-        "Imporoving English language skills and acquirering a C1 level certificate.",
-        "Displaying outstanding performance in various Computer Science subjects.",
-        "Created two professional websites for established businesses.",
+        "Established algorithmic thinking and problem-solving skills.",
+        "Improving English language skills and obtaining a C1 level certificate.",
+        "Displayed outstanding performance in various Computer Science subjects.",
+        "Created professional websites for established businesses.",
       ],
     },
   ];
@@ -191,7 +192,7 @@ import {
     {
       name: "T-Shirt Builder",
       description:
-        "T-Shirt-Builder is a full-stack web application that allows the users to create their own 3D model of a T-shirt. The user can customize the color of the T-shirt and also upload their own file to apply as a T-shirt logo or overall texture. Additionally, the app has an option to generate a custom logo or texture using the DALL-E AI picker tool.",
+        "T-Shirt-Builder is a full-stack web application that allows users to create their own 3D model T-shirt. The user can customize the color of the T-shirt and upload their own file to apply as a T-shirt logo or overall texture. Additionally, the app has an option to generate a custom logo or texture using the DALL-E AI picker tool.",
       tags: [
         {
           name: "react",
@@ -217,7 +218,7 @@ import {
     {
       name: "Skydata",
       description:
-        "Skydata is a full-stack web application, that provides users the opportunity to share and learn interesting facts about different types of aircraft.  It is my final project of the React.js course, held in the Software University (SoftUni) . It was rated with the highest possible grade. 6/6",
+        "Skydata is a full-stack web application, that provides users opportunities to share and learn interesting facts about different types of aircrafts. It is my final project of the React.js course, held in the Software University (SoftUni). It was rated with the highest possible grade. 6/6",
       tags: [
         {
           name: "react",
@@ -276,7 +277,7 @@ import {
     {
       name: "Burger Builder",
       description:
-        "The Burger Builder app is a web platform that allows individuals to create their perfect burger. With a wide range of supported ingredients, users can build their burger to their exact preferences, with a convenient preview feature. Ordering is made easy through a contact data form, streamlining the process.",
+        "Burger Builder app is a web platform that allows individuals to create their own perfect burger. With a wide range of supported ingredients, each user can build their burger to their exact preferences, with a convenient preview feature. Ordering is made easy through a contact data form therefore streamlining the process.",
       tags: [
         {
           name: "react",
@@ -297,8 +298,7 @@ import {
     },
     {
       name: "National Lottery",
-      description:
-        "The National Lottery project is an offline number-guessing game that offers players the opportunity to win prizes. The game consists of 10 spheres, each generating a random number between 1 and 50. Players make guesses, and if they correctly guess the number, the total prize increases.",
+      description: "The National Lottery project is an offline number-guessing game that offers players the chance to win prizes. The game consists of 10 spheres, each generating a random number between 1 and 50. Players make guesses, and if correctly guessed, the total prize increases.",
       tags: [
         {
           name: "react",

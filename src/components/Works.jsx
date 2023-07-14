@@ -166,7 +166,7 @@ const Works = () => {
           variants={fadeIn("","",0.1,1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Here, you'll find a collection of my showcased software projects, demonstrating my expertise in developing innovative solutions. From intuitive mobile applications to efficient web platforms, each project reflects my passion for creating user-centric software tailored to specific needs.
+          Here, you'll find a collection of my showcased software projects. From intuitive mobile applications to efficient web platforms. Each project reflects my passion and expertise for creating user-centric software tailored to specific needs and developing innovative solutions.
         </motion.p>
       </div>
 

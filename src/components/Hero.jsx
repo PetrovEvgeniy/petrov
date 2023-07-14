@@ -22,7 +22,7 @@ const Hero = () => {
           >Evgeniy</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I love to create beautiful functional <br className="sm:block hidden"/> websites and mobile applications
+            I love creating exquisite functional <br className="sm:block hidden"/> websites and mobile applications
           </p>
         </div>
       </div>
