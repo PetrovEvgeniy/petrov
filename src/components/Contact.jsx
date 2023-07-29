@@ -52,7 +52,7 @@ const Contact = () => {
        )
        .then(() => {
         setLoading(false);
-        alert('Thank you for your message. I will get back to you soon!')
+        alert('Thank you for your message. I will get back to you soon! 🙂')
 
         setForm({
          name:'',
