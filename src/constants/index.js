@@ -197,8 +197,8 @@ import {
       ],
     },
     {
-      title: "Android Developer and Scrum Master",
-      company: "Elektrobit",
+      title: "Android Developer & Scrum Master",
+      company: "Elektrobit Automotive",
       icon: elektrobit,
       iconBg: "#FFFFFF",
       date: "Sep 2023 - Nov 2023",
