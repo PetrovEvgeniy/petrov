@@ -4,22 +4,29 @@ import {
     backend,
     frontend,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
     nodejs,
     mongodb,
-    bootstrap,
     firebase,
-    threejs,
     git,
-    figma,
-    pmg,
-    thu,
-    softuni,
+    python,
+    java,
+    cpp,
+    mysql,
+    jenkins,
+    cloudfoundry,
+    langchain,
+    spring,
+    ui5,
+    nodered,
+    snapcraft,
+    hana,
+    sap,
+    boschrexroth,
+    elektrobit,
+    fiverr,
     tshirtbuilder,
     skydata,
     housenet,
@@ -46,7 +53,7 @@ import {
   
   const services = [
     {
-      title: "AI Developer",
+      title: "AI Engineer",
       icon: ai,
     },
     {
@@ -68,20 +75,16 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "ReactJS",
-      icon: reactjs,
+      name: "Java",
+      icon: java,
     },
     {
-      name: "NodeJS",
-      icon: nodejs,
-    },
-     {
-      name: "Redux",
-      icon: redux,
+      name: "C++",
+      icon: cpp,
     },
     {
       name: "HTML 5",
@@ -92,75 +95,128 @@ import {
       icon: css,
     },
     {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
-    
-    {
-      name: "TailwindCSS",
-      icon: tailwind,
+      name: "ReactJS",
+      icon: reactjs,
     },
     {
-      name: "Firebase",
-      icon: firebase,
+      name: "NodeJS",
+      icon: nodejs,
+    },
+    {
+      name: "Spring",
+      icon: spring,
+    },
+    {
+      name: "SAPUI5",
+      icon: ui5,
+    },
+    {
+      name: "LangChain",
+      icon: langchain,
+    },
+    {
+      name: "NodeRED",
+      icon: nodered,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
     },
     {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "ThreeJS",
-      icon: threejs,
+      name: "HANA",
+      icon: hana,
+    },
+    {
+      name: "Firebase",
+      icon: firebase,
+    },
+    {
+      name: "Cloud Foundry",
+      icon: cloudfoundry,
     },
     {
       name: "Git",
       icon: git,
     },
     {
-      name: "Figma",
-      icon: figma,
+      name: "Jenkins",
+      icon: jenkins,
+    },
+    {
+      name: "Snapcraft",
+      icon: snapcraft,
     },
 
   ];
   
-  const education = [
+  const experiences = [
     {
-      title: "Bachelor of Computer Science",
-      institution: "Technische Hochshule Ulm", 
-      icon: thu,
-      iconBg: "#383E56",
-      date: "Oct 2020 - Oct 2024",
+      title: "Associate Application Engineer",
+      company: "SAP",
+      icon: sap,
+      iconBg: "#FFFFFF",
+      date: "May 2025 - Present",
       points: [
-        "Acquired theoretical and practical knowledge of mathematical principles and core subjects of Computer Science.",
-        "Collaborated with cross-functional teams in Agile Scrum environment to create multiple high quality software projects.",
-        "Specialized in Web Engineering, Internet of Things and Mobile Development for both Android and iOS Applications.",
-        "Second specialization in Business Administration, Cross-Cultural Management and International Trade and Globalization.",
+        "Developed full-stack features for SAP Task Center using SAPUI5 and Java, including the Activity Log and Process Overview modules.",
+        "Built cloud-native integrations on SAP BTP and HANA Cloud to streamline backend services and Audit Log functionality for security events.",
+        "Leveraged modern AI tools to resolve urgent client requirements, earning 8+ peer appreciations for great Agile collaboration.",
+        "Actively engaged in the SAP Next Talent program, participating in workshops, seminars, and networking events across the SAP Labs Network.",
       ],
     },
     {
-      title: "Professional qualification: JavaScript Web Developer",
-      institution: "Software University (SoftUni)",
-      icon: softuni,
-      iconBg: "#E6DEDD",
-      date: "Oct 2017 - July 2020",
+      title: "Bachelor Thesis",
+      company: "Bosch Rexroth",
+      icon: boschrexroth,
+      iconBg: "#FFFFFF",
+      date: "June 2024 - Dec 2024",
       points: [
-        "Obtained deep knowledge and practical skills in both client (Front-end) programming and server (Back-end) JavaScript technologies.",
-        "Solid skills in functional programming, working with arrays and objects, classes, DOM, object composition, prototype programming (inheritance), asynchronous programming, component testing, building SPA (Single-Page Application) and other basic JS concepts.",
-        "Engaged in code reviews and providing constructive feedback to other developers.",
-        "Focalized in full-stack JavaScript development of modern web applications using technologies such as HTML, CSS, Node.js, Express.js, MongoDB, React.js, Bootstrap and others.",
+        "Researched and developed a thermal imaging anomaly detection system prototype to enhance safety and efficiency in battery recycling processes.",
+        "Utilized Python, PyTorch, Anomalib, and Scikit-learn to build a semi-supervised framework for detecting irregular heating patterns and sensor miscalibrations.",
+        "Integrated the prototype with the CtrlX CORE automation platform and used Node-RED to create a user-friendly interface for real-time monitoring and alerts.",
+        "Delivered a functional prototype (demonstrator) that showcased the feasibility of addressing critical safety challenges in industrial battery discharging operations.",
       ],
     },
     {
-      title: "High School Diploma",
-      institution: "High School of Natural Sciences and Mathematics \"Sergey Korolyov\"",
-      icon: pmg,
-      iconBg: "#383E56",
-      date: "Sep 2015 - June 2020",
+      title: "Software Engineering Intern",
+      company: "Bosch Rexroth",
+      icon: boschrexroth,
+      iconBg: "#FFFFFF",
+      date: "Dec 2023 - May 2024",
       points: [
-        "Established algorithmic thinking and problem-solving skills.",
-        "Improving English language skills and obtaining a C1 level certificate.",
-        "Displayed outstanding performance in various Computer Science subjects.",
-        "Created professional websites for established businesses.",
+        "Contributed to Industry 4.0 automation solutions by developing software for factory automation and securing the Battery Recycling Software Suite through embedded C++ binaries.",
+        "Developed an Express.js License Manager Simulator to replicate Bosch's licensing API, enabling seamless testing ahead of production integration.",
+        "Engineered the Datalayer Visualizer App for real-time industrial data monitoring, leveraging Node.js and SSE for responsive client adoption.",
+        "Optimized cross-platform DevOps workflows using Snapcraft and Ubuntu Linux on CtrlX CORE devices (ARM/AMD).",
+      ],
+    },
+    {
+      title: "Android Developer and Scrum Master",
+      company: "Elektrobit",
+      icon: elektrobit,
+      iconBg: "#FFFFFF",
+      date: "Sep 2023 - Nov 2023",
+      points: [
+        "Led a team of 6 to create ECall4Bike, a safety app for bikers that uses smartphone sensors to detect accidents and send emergency alerts.",
+        "Contributed to the pre-processing of sensor data and development of accident detection algorithms.",
+        "Improved the app's UI/UX, and added customizable features for automatic eCall and SMS alerting.",
+        "Gained hands-on experience with Android development (Java) and led Scrum meetings to keep the team on track and deliver the project on time.",
+      ],
+    },
+    {
+      title: "Freelance Web Developer",
+      company: "Fiverr",
+      icon: fiverr,
+      iconBg: "#FFFFFF",
+      date: "Aug 2019 - Jan 2020",
+      points: [
+        "Developed multiple websites for various business clients and learned how to turn their user stories into functional web software.",
+        "Enhanced HTML and CSS skills to create responsive website designs with Bootstrap and Material-UI.",
+        "Integrated Google Maps API and created professional contact forms with automatic email-reply functionality.",
+        "Successfully delivered projects that met client requirements and improved their online presence.",
       ],
     },
   ];
@@ -346,4 +402,4 @@ import {
   ];
 
 
-  export { services, technologies, education, testimonials, projects, moreProjects };
+  export { services, technologies, experiences, testimonials, projects, moreProjects };
