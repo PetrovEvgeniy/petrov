@@ -48,7 +48,7 @@ const About = () => {
       variants={fadeIn("","",0.1,1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-      I'm a {age}-year-old Computer Science graduate from Bulgaria, currently working as an Application Engineer at SAP. Technology and innovation have always inspired me, especially the transformative potential of AI. I love creating innovative software solutions that solve real-world problems. My passion lies in leveraging modern AI tools and technologies to build intelligent applications that empower businesses and transform creative concepts into practical solutions for the general public.
+      I'm a {age}-year-old Computer Science graduate from Bulgaria, currently working as an Application Engineer at SAP. Technology and innovation have always inspired me, especially the transformative potential of AI. I love creating innovative software solutions that solve real-world problems. My passion lies in leveraging modern tools and technologies to build intelligent applications that empower businesses and transform creative concepts into practical solutions for the general public.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
