@@ -314,7 +314,7 @@ import {
     {
       name: "Skydata",
       description:
-        "Skydata is a full-stack web application, that provides users opportunities to share and learn interesting facts about different types of aircrafts. It is my final project of the React.js course, held in the Software University (SoftUni). It was rated with the highest possible grade. 6/6",
+        "Skydata is a full-stack web application that provides users opportunities to share and learn interesting facts about different types of aircraft. It is my final project of the React.js course held in the Software University (SoftUni). It was rated with the highest possible grade: 6/6.",
       tags: [
         {
           name: "react",
@@ -348,7 +348,7 @@ import {
     {
       name: "HouseNet",
       description:
-        "HouseNet is an Android application, which gives the opportunity to the user to see available listed real estate properties in the United Arab Emirates. Additionally, filter them out (search) by their property type and city, in which they are located. It is my personal university project and it was rated with 11/12 points by Prof. Philip Graf.",
+        "HouseNet is an Android application that gives users the opportunity to see available real estate properties in the United Arab Emirates. Additionally, users can filter them by property type and city. It is my personal university project and it was rated with 11/12 points by Prof. Philip Graf.",
       tags: [
         {
           name: "android",
@@ -373,7 +373,7 @@ import {
     {
       name: "Burger Builder",
       description:
-        "Burger Builder app is a web platform that allows individuals to create their own perfect burger. With a wide range of supported ingredients, each user can build their burger to their exact preferences, with a convenient preview feature. Ordering is made easy through a contact data form therefore streamlining the process.",
+        "Burger Builder is a web platform that allows individuals to create their own perfect burger. With a wide range of supported ingredients, each user can build their burger to their exact preferences with a convenient preview feature. Ordering is made easy through a contact data form, streamlining the process.",
       tags: [
         {
           name: "react",
@@ -416,7 +416,7 @@ import {
     {
       name: "Vanesa Trans",
       description:
-        "In 2020, I developed Vanesa Trans - a website for a popular towing service business in Sofia. The web app effectively showcases all the services provided by the company including pricing, gallery and interactive contact page. It is currently only available in Bulgarian language.",
+        "In 2020, I developed Vanesa Trans, a website for a popular towing service business in Sofia. The web app effectively showcases all the services provided by the company, including pricing, gallery, and an interactive contact page. It is currently only available in Bulgarian.",
       tags: [
         {
           name: "react",
