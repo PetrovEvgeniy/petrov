@@ -1,4 +1,5 @@
 import React from 'react'
+import { currentYear } from '../utils/date';
 
 const Footer = () => 
 (<footer className="bg-tertiary text-center text-white">
@@ -56,7 +57,7 @@ const Footer = () =>
 
   <div
     className="p-5 mb-1 text-center">
-    © 2023 
+    © {currentYear} 
     <a className="text-violet-600" href="#about"
       > <span className="sm:hidden lg:inline-block">Evgeniy</span> Petrov </a
     >

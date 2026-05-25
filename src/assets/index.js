@@ -2,6 +2,7 @@ import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
+import ai from "./robotic-hand.png";
 import frontend from "./frontend.png";
 import github from "./github.png";
 import visit from "./visit.png";
@@ -41,6 +42,7 @@ import iconsend from './icon-send.png';
 
 export {
   logo,
+  ai,
   backend,
   creator,
   mobile,

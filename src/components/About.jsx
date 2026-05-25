@@ -7,7 +7,9 @@ import {services} from '../constants';
 import {fadeIn, textVariant} from '../utils/motion';
 
 import { SectionWrapper } from '../hoc';
+import { getAge } from '../utils/date';
 
+const age = getAge('2001-01-04');
 
 const ServiceCard = ({index, title, icon}) => {
   return (
@@ -46,7 +48,7 @@ const About = () => {
       variants={fadeIn("","",0.1,1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-      I’m a 22-year-old Computer Science student from Bulgaria. Technology and innovation have always inspired me. This projects on my willingness to absorb new concepts and experiment with current innovative projects.  It has always been a pleasure bringing value to people by developing various kinds of website and mobile applications. I aspire to ensure that these programs not only enable people to showcase their works and talents, but to give empowerment to their online business ideas and transform creative concepts into practical solutions for the general public.
+      I'm a {age}-year-old Computer Science student from Bulgaria. Technology and innovation have always inspired me. This projects on my willingness to absorb new concepts and experiment with current innovative projects.  It has always been a pleasure bringing value to people by developing various kinds of website and mobile applications. I aspire to ensure that these programs not only enable people to showcase their works and talents, but to give empowerment to their online business ideas and transform creative concepts into practical solutions for the general public.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
