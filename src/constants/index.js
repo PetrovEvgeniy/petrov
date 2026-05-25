@@ -33,6 +33,9 @@ import {
     burgerbuilder,
     nationallottery,
     vanesatrans,
+    yordan,
+    richard,
+    hamdi,
 
   } from "../assets";
   
@@ -224,11 +227,42 @@ import {
   const testimonials = [
     {
       testimonial:
+        "Evgeniy's relentless curiosity is his greatest asset; it's the engine behind the insightful ideas he contributes and the innovative ways he approaches his work. His use of AI tools is a perfect example of this in action. If he continues to explore and innovate, I have no doubt he will achieve great things.",
+      name: "Yordan Yurukov",
+      designation: "Development Expert & Architect",
+      company: "SAP Task Center",
+      image: yordan,
+      preposition: "at",
+    },
+    {
+      testimonial:
+        "Evgeniy mastered his area of responsibility extremely well with excellent motivation and initiative. His extremely high level of comprehension and organizational skills allowed him to familiarize himself with new tasks exceptionally quickly and deliver outstanding results.",
+      name: "Richard Verbeet",
+      designation: "System Architect",
+      company: "Bosch Rexroth",
+      image: richard,
+      preposition: "at",
+    },
+    {
+      testimonial:
+        "Evgeniy was extremely open to new ideas and came up with excellent, creative solutions. He worked very independently and in a structured manner, and his work results were always of very good quality. His personal behavior towards colleagues was exemplary.",
+      name: "Hamdi Choubani",
+      designation: "Senior Software Engineer",
+      company: "Bosch Rexroth",
+      image: hamdi,
+      preposition: "at",
+    },
+  ];
+
+  const moreTestimonials = [
+    {
+      testimonial:
         "Working with Evgeniy was a collaborative and enjoyable experience; he patiently listened to our ideas and incorporated them seamlessly into the website design.",
       name: "Rosen Kolev",
       designation: "CEO",
       company: "TD Uteha",
       image: "https://i.ibb.co/LSFHQXW/122612411-270617774290671-1781624060619717031-n.jpg",
+      preposition: "of",
     },
     {
       testimonial:
@@ -237,6 +271,7 @@ import {
       designation: "CTS Grad Student",
       company: "THU",
       image: "https://i.ibb.co/fkfL8pK/discordred-734882427.png",
+      preposition: "at",
     },
     {
       testimonial:
@@ -245,9 +280,10 @@ import {
       designation: "CEO",
       company: "Vanesa Trans",
       image: "https://i.ibb.co/kMBKs4z/vasil.png",
+      preposition: "of",
     },
   ];
-  
+
   const projects = [
     {
       name: "T-Shirt Builder",
@@ -402,4 +438,4 @@ import {
   ];
 
 
-  export { services, technologies, experiences, testimonials, projects, moreProjects };
+  export { services, technologies, experiences, testimonials, moreTestimonials, projects, moreProjects };

@@ -52,6 +52,10 @@ import burgerbuilder from './burgerbuilder.png';
 import nationallottery from './nationallottery.png';
 import vanesatrans from './vanesa-trans.png';
 
+import yordan from './yordan.jpeg';
+import richard from './richard.jpeg';
+import hamdi from './hamdi.jpeg';
+
 import iconsend from './icon-send.png';
 
 
@@ -106,5 +110,8 @@ export {
   burgerbuilder,
   nationallottery,
   vanesatrans,
+  yordan,
+  richard,
+  hamdi,
   iconsend,
 };
