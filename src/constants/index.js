@@ -288,7 +288,7 @@ import {
     {
       name: "T-Shirt Builder",
       description:
-        "T-Shirt-Builder is a full-stack web application that allows users to create their own 3D model T-shirt. The user can customize the color of the T-shirt and upload their own file to apply as a T-shirt logo or overall texture. Additionally, the app has an option to generate a custom logo or texture using the DALL-E AI picker tool.",
+        "T-Shirt-Builder is a full-stack web application that allows users to create their own 3D model T-shirt. The user can customize the color of the T-shirt and upload their own file to apply as a T-shirt logo or overall texture. Additionally, the app has an option to generate a custom logo or texture using the Nano Banana 2 image generation model.",
       tags: [
         {
           name: "react",
