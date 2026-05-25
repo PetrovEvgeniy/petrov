@@ -236,7 +236,7 @@ import {
     },
     {
       testimonial:
-        "Evgeniy mastered his area of responsibility extremely well with excellent motivation and initiative. His extremely high level of comprehension and organizational skills allowed him to familiarize himself with new tasks exceptionally quickly and deliver outstanding results.",
+        "With excellent motivation and initiative, Evgeniy mastered his area of responsibility extremely well. His extremely high level of comprehension and organizational skills allowed him to familiarize himself with new tasks exceptionally quickly and deliver outstanding results.",
       name: "Richard Verbeet",
       designation: "System Architect",
       company: "Bosch Rexroth",
