@@ -56,6 +56,9 @@ const Experience = () => {
     <>
       <motion.div
       variants={textVariant()}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.25 }}
       >
         <p className={styles.sectionSubText}>What I have done so far</p>
         <h2 className={styles.sectionHeadText}>Professional Experience.</h2>

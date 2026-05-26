@@ -29,25 +29,27 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-   
+
 
     //Validate form
     if(!form.name || !form.email || !form.message) {
-      
+      alert("Please fill in all fields.");
+      return;
     }
-    else{
-      // Submit form
-      setLoading(true);
+
+    // Submit form
+    setLoading(true);
+
     emailjs.send(
       'service_ndiknvo',
       'template_8nhf6po',
        {
         from_name: form.name,
         to_name: 'Evgeniy',
-        form_email: form.email,
+        from_email: form.email,
         to_email: 'evgeniypetrov945@gmail.com',
         message: form.message,
-       }, 
+       },
        'user_e673EHxvHaBkEGQuBXmsc'
        )
        .then(() => {
@@ -61,12 +63,9 @@ const Contact = () => {
         })
        }, (error) => {
         setLoading(false);
-        console.log(error.text);
-        alert("Something went wrong.")
+        console.error(error);
+        alert("Something went wrong. Please try again later.")
        });
-    }
-
-
   }
 
 
@@ -95,8 +94,8 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className="bg-tertiary py-4 px-6 
-              placeholder:text-secondary 
+              className="bg-tertiary py-4 px-6
+              placeholder:text-secondary
               rounded-lg text-white font-medium focus:outline-none
               border-none"
             />
@@ -112,8 +111,8 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email address?"
-              className="bg-tertiary py-4 px-6 
-              placeholder:text-secondary 
+              className="bg-tertiary py-4 px-6
+              placeholder:text-secondary
               rounded-lg text-white font-medium focus:outline-none
               border-none"
             />
@@ -129,8 +128,8 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
-              className="bg-tertiary py-4 px-6 
-              placeholder:text-secondary 
+              className="bg-tertiary py-4 px-6
+              placeholder:text-secondary
               rounded-lg text-white font-medium focus:outline-none
               border-none resize-none"
             />
@@ -150,7 +149,7 @@ const Contact = () => {
       <motion.div
       variants={slideIn("right", "tween", 0.2,1)}
       className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
-      > 
+      >
         <EarthCanvas/>
 
       </motion.div>

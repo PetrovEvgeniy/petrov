@@ -13,6 +13,37 @@
   color-scheme: dark;
 }
 
+/* Fix mobile timeline animation shake */
+@media only screen and (max-width: 1169px) {
+  .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+    -webkit-animation: cd-bounce-2-mobile .4s !important;
+    -moz-animation: cd-bounce-2-mobile .4s !important;
+    animation: cd-bounce-2-mobile .4s !important;
+  }
+
+  @-webkit-keyframes cd-bounce-2-mobile {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+    }
+  }
+
+  @keyframes cd-bounce-2-mobile {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
